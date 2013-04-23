@@ -7,8 +7,8 @@
 <%@ page import="java.util.regex.Pattern"%>
 <%@ page import="java.util.regex.Matcher"%>
 
-<jsp:directive.page import="com.agrologic.dto.ControllerDto"/>
-<jsp:directive.page import="com.agrologic.dto.DataDto"/>
+<jsp:directive.page import="com.agrologic.app.model.ControllerDto"/>
+<jsp:directive.page import="com.agrologic.app.model.DataDto"/>
 
 <%
     Long controllerId = Long.parseLong(request.getParameter("controllerId"));

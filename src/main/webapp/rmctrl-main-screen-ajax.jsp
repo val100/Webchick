@@ -6,8 +6,8 @@
 <%@ page import="java.util.List"%>
 <%@ page import="java.util.Map"%>
 <%@ page import="java.util.ArrayList"%>
-<%@ page import="com.agrologic.dto.UserDto"%>
-<%@ page import="com.agrologic.web.UserRole"%>
+<%@ page import="com.agrologic.app.model.UserDto"%>
+<%@ page import="com.agrologic.app.web.UserRole"%>
 <%
     long userId = Long.parseLong(request.getParameter("userId"));
     long cellinkId = Long.parseLong(request.getParameter("cellinkId"));

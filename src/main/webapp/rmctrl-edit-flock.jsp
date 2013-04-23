@@ -2,13 +2,13 @@
     Document   : rmctrl-edit-flock.jsp
     Created on : Oct 24, 2010, 3:08:55 PM
     Author     : Valery Manakhimov
-    Company    : Agrologic Ltd. ®
+    Company    : Agrologic Ltd. ï¿½
     Version    : 0.1.1.1
 --%>
-<jsp:directive.page import="com.agrologic.dto.UserDto"/>
-<jsp:directive.page import="com.agrologic.dto.ControllerDto"/>
-<jsp:directive.page import="com.agrologic.dto.FlockDto"/>
-<jsp:directive.page import="com.agrologic.web.UserRole"/>
+<jsp:directive.page import="com.agrologic.app.model.UserDto"/>
+<jsp:directive.page import="com.agrologic.app.model.ControllerDto"/>
+<jsp:directive.page import="com.agrologic.app.model.FlockDto"/>
+<jsp:directive.page import="com.agrologic.app.web.UserRole"/>
 
 <%  UserDto user = (UserDto)request.getSession().getAttribute("user");
     if(user == null) {

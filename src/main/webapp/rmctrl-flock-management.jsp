@@ -8,8 +8,8 @@
 <%@ page import="java.util.List"%>
 <%@ include file="disableCaching.jsp" %>
 
-<jsp:directive.page import="com.agrologic.dto.ControllerDto"/>
-<jsp:directive.page import="com.agrologic.dto.FlockDto"/>
+<jsp:directive.page import="com.agrologic.app.model.ControllerDto"/>
+<jsp:directive.page import="com.agrologic.app.model.FlockDto"/>
 <%
     Long userId = Long.parseLong(request.getParameter("userId"));
     Long cellinkId = Long.parseLong(request.getParameter("cellinkId"));

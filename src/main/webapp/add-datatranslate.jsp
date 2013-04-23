@@ -2,7 +2,7 @@
     Document   : add-tabletranslate.jsp
     Created on : Oct 3, 2010, 11:28:56 AM
     Author     : Valery Manakhimov
-    Company    : Agrologic Ltd. ®
+    Company    : Agrologic Ltd. ï¿½
     Version    : 0.1.1.1
 --%>
 
@@ -10,15 +10,15 @@
 <%@ page errorPage="anerrorpage.jsp"%>
 <%@ page import="java.util.List"%>
 
-<jsp:directive.page import="com.agrologic.dto.UserDto"/>
-<jsp:directive.page import="com.agrologic.web.UserRole"/>
-<jsp:directive.page import="com.agrologic.dto.LanguageDto"/>
-<jsp:directive.page import="com.agrologic.dao.ScreenDao"/>
-<jsp:directive.page import="com.agrologic.dao.impl.ScreenDaoImpl"/>
-<jsp:directive.page import="com.agrologic.dao.TableDao"/>
-<jsp:directive.page import="com.agrologic.dao.impl.TableDaoImpl"/>
-<jsp:directive.page import="com.agrologic.dao.LanguageDao"/>
-<jsp:directive.page import="com.agrologic.dao.impl.LanguageDaoImpl"/>
+<jsp:directive.page import="com.agrologic.app.model.UserDto"/>
+<jsp:directive.page import="com.agrologic.app.web.UserRole"/>
+<jsp:directive.page import="com.agrologic.app.model.LanguageDto"/>
+<jsp:directive.page import="com.agrologic.app.dao.ScreenDao"/>
+<jsp:directive.page import="com.agrologic.app.dao.impl.ScreenDaoImpl"/>
+<jsp:directive.page import="com.agrologic.app.dao.TableDao"/>
+<jsp:directive.page import="com.agrologic.app.dao.impl.TableDaoImpl"/>
+<jsp:directive.page import="com.agrologic.app.dao.LanguageDao"/>
+<jsp:directive.page import="com.agrologic.app.dao.impl.LanguageDaoImpl"/>
 
 <%  UserDto user = (UserDto)request.getSession().getAttribute("user");
     if(user == null) {

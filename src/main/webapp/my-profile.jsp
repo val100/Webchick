@@ -4,8 +4,8 @@
 <%@ include file="disableCaching.jsp" %>
 <%@ include file="language.jsp" %>
 
-<jsp:directive.page import="com.agrologic.dto.UserDto"/>
-<jsp:directive.page import="com.agrologic.dto.UserDto"/>
+<jsp:directive.page import="com.agrologic.app.model.UserDto"/>
+<jsp:directive.page import="com.agrologic.app.model.UserDto"/>
 
 <%  UserDto user = (UserDto)request.getSession().getAttribute("user");
     if(user == null) {

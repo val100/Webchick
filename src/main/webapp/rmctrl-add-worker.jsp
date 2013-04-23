@@ -7,9 +7,9 @@
 <%@ include file="disableCaching.jsp" %>
 <%@ include file="language.jsp" %>
 
-<jsp:directive.page import="com.agrologic.dto.WorkerDto"/>
-<jsp:directive.page import="com.agrologic.dao.WorkerDao"/>
-<jsp:directive.page import="com.agrologic.dao.impl.WorkerDaoImpl"/>
+<jsp:directive.page import="com.agrologic.app.model.WorkerDto"/>
+<jsp:directive.page import="com.agrologic.app.dao.WorkerDao"/>
+<jsp:directive.page import="com.agrologic.app.dao.impl.WorkerDaoImpl"/>
 
 <%
     Long cellinkId = Long.parseLong(request.getParameter("cellinkId"));

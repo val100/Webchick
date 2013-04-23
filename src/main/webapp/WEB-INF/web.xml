@@ -10,11 +10,11 @@
     <display-name>webchick</display-name>
     <servlet>
         <servlet-name>ShowTotalUserPropertiesPieChart</servlet-name>
-        <servlet-class>com.agrologic.graph.TotalUserPropertiesPieChart</servlet-class>
+        <servlet-class>com.agrologic.app.graph.TotalUserPropertiesPieChart</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>TotalUserPropertiesPieChart</servlet-name>
-        <servlet-class>com.agrologic.graph.TotalUserPropertiesPieChart</servlet-class>
+        <servlet-class>com.agrologic.app.graph.TotalUserPropertiesPieChart</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>ClearUnusedData</servlet-name>
@@ -22,35 +22,35 @@
     </servlet>
     <servlet>
         <servlet-name>LoginNameServlet</servlet-name>
-        <servlet-class>com.agrologic.web.LoginNameServlet</servlet-class>
+        <servlet-class>com.agrologic.app.web.LoginNameServlet</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>UserLoginFormServlet</servlet-name>
-        <servlet-class>com.agrologic.web.UserLoginFormServlet</servlet-class>
+        <servlet-class>com.agrologic.app.web.UserLoginFormServlet</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>UserLogoutServlet</servlet-name>
-        <servlet-class>com.agrologic.web.UserLogoutServlet</servlet-class>
+        <servlet-class>com.agrologic.app.web.UserLogoutServlet</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>ListCellinkServlet</servlet-name>
-        <servlet-class>com.agrologic.web.ListUserCellinksServlet</servlet-class>
+        <servlet-class>com.agrologic.app.web.ListUserCellinksServlet</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>ListUserServlet</servlet-name>
-        <servlet-class>com.agrologic.web.ListUserServlet</servlet-class>
+        <servlet-class>com.agrologic.app.web.ListUserServlet</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>ListControllerServlet</servlet-name>
-        <servlet-class>com.agrologic.web.ListCellinkControllersServlet</servlet-class>
+        <servlet-class>com.agrologic.app.web.ListCellinkControllersServlet</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>AddUserFormServlet</servlet-name>
-        <servlet-class>com.agrologic.web.AddUserFormServlet</servlet-class>
+        <servlet-class>com.agrologic.app.web.AddUserFormServlet</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>AddCellinkFormServlet</servlet-name>
-        <servlet-class>com.agrologic.web.AddCellinkFormServlet</servlet-class>
+        <servlet-class>com.agrologic.app.web.AddCellinkFormServlet</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>Log4JTestServlet</servlet-name>
@@ -58,7 +58,7 @@
     </servlet>
     <servlet>
         <servlet-name>Log4JInitServlet</servlet-name>
-        <servlet-class>com.agrologic.web.Log4JInitServlet</servlet-class>
+        <servlet-class>com.agrologic.app.web.Log4JInitServlet</servlet-class>
         <init-param>
             <param-name>log4j-properties-location</param-name>
             <param-value>WEB-INF/log4j.properties</param-value>
@@ -67,175 +67,175 @@
     </servlet>
     <servlet>
         <servlet-name>EditCellinkFormServlet</servlet-name>
-        <servlet-class>com.agrologic.web.EditCellinkFormServlet</servlet-class>
+        <servlet-class>com.agrologic.app.web.EditCellinkFormServlet</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>RemoveCellinkServlet</servlet-name>
-        <servlet-class>com.agrologic.web.RemoveCellinkServlet</servlet-class>
+        <servlet-class>com.agrologic.app.web.RemoveCellinkServlet</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>EditUserFormServlet</servlet-name>
-        <servlet-class>com.agrologic.web.EditUserFormServlet</servlet-class>
+        <servlet-class>com.agrologic.app.web.EditUserFormServlet</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>RemoveUserServlet</servlet-name>
-        <servlet-class>com.agrologic.web.RemoveUserServlet</servlet-class>
+        <servlet-class>com.agrologic.app.web.RemoveUserServlet</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>AddControllerFormServlet</servlet-name>
-        <servlet-class>com.agrologic.web.AddControllerFormServlet</servlet-class>
+        <servlet-class>com.agrologic.app.web.AddControllerFormServlet</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>RemoveControllerServlet</servlet-name>
-        <servlet-class>com.agrologic.web.RemoveControllerServlet</servlet-class>
+        <servlet-class>com.agrologic.app.web.RemoveControllerServlet</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>EditControllerFormServlet</servlet-name>
-        <servlet-class>com.agrologic.web.EditControllerFormServlet</servlet-class>
+        <servlet-class>com.agrologic.app.web.EditControllerFormServlet</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>ControllerDetailsServlet</servlet-name>
-        <servlet-class>com.agrologic.web.ControllerDetailsServlet</servlet-class>
+        <servlet-class>com.agrologic.app.web.ControllerDetailsServlet</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>ListProgramServlet</servlet-name>
-        <servlet-class>com.agrologic.web.ListProgramServlet</servlet-class>
+        <servlet-class>com.agrologic.app.web.ListProgramServlet</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>ProgramDetailsServet</servlet-name>
-        <servlet-class>com.agrologic.web.ProgramDetailsServet</servlet-class>
+        <servlet-class>com.agrologic.app.web.ProgramDetailsServet</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>AddProgramFormServlet</servlet-name>
-        <servlet-class>com.agrologic.web.AddProgramFormServlet</servlet-class>
+        <servlet-class>com.agrologic.app.web.AddProgramFormServlet</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>EditProgramFormServlet</servlet-name>
-        <servlet-class>com.agrologic.web.EditProgramFormServlet</servlet-class>
+        <servlet-class>com.agrologic.app.web.EditProgramFormServlet</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>RemoveProgramServlet</servlet-name>
-        <servlet-class>com.agrologic.web.RemoveProgramServlet</servlet-class>
+        <servlet-class>com.agrologic.app.web.RemoveProgramServlet</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>AddProgramServlet</servlet-name>
-        <servlet-class>com.agrologic.web.AddProgramServlet</servlet-class>
+        <servlet-class>com.agrologic.app.web.AddProgramServlet</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>RCMainServlet</servlet-name>
-        <servlet-class>com.agrologic.web.RCMainServlet</servlet-class>
+        <servlet-class>com.agrologic.app.web.RCMainServlet</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>RCScreensServlet</servlet-name>
-        <servlet-class>com.agrologic.web.RCScreensServlet</servlet-class>
+        <servlet-class>com.agrologic.app.web.RCScreensServlet</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>RCMainScreenServlet</servlet-name>
-        <servlet-class>com.agrologic.web.RCMainScreenServlet</servlet-class>
+        <servlet-class>com.agrologic.app.web.RCMainScreenServlet</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>RCDataValueChangeServlet</servlet-name>
-        <servlet-class>com.agrologic.web.RCDataValueChangeServlet</servlet-class>
+        <servlet-class>com.agrologic.app.web.RCDataValueChangeServlet</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>Graph24HumidTempServlet</servlet-name>
-        <servlet-class>com.agrologic.web.Graph24HumidTempServlet</servlet-class>
+        <servlet-class>com.agrologic.app.web.Graph24HumidTempServlet</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>RCGraphServlet</servlet-name>
-        <servlet-class>com.agrologic.web.RCGraphServlet</servlet-class>
+        <servlet-class>com.agrologic.app.web.RCGraphServlet</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>Graph24WaterConsumpTempServlet</servlet-name>
-        <servlet-class>com.agrologic.web.Graph24WaterConsumpTempServlet</servlet-class>
+        <servlet-class>com.agrologic.app.web.Graph24WaterConsumpTempServlet</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>RCChangeValuePopupServlet</servlet-name>
-        <servlet-class>com.agrologic.web.RCChangeValuePopupServlet</servlet-class>
+        <servlet-class>com.agrologic.app.web.RCChangeValuePopupServlet</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>OverviewServlet</servlet-name>
-        <servlet-class>com.agrologic.web.OverviewServlet</servlet-class>
+        <servlet-class>com.agrologic.app.web.OverviewServlet</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>PropertySummaryServlet</servlet-name>
-        <servlet-class>com.agrologic.web.PropertySummaryServlet</servlet-class>
+        <servlet-class>com.agrologic.app.web.PropertySummaryServlet</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>TotalUserPieChart</servlet-name>
-        <servlet-class>com.agrologic.web.TotalUserPieChart</servlet-class>
+        <servlet-class>com.agrologic.app.web.TotalUserPieChart</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>TotalCellinkPieChart</servlet-name>
-        <servlet-class>com.agrologic.web.TotalCellinkPieChart</servlet-class>
+        <servlet-class>com.agrologic.app.web.TotalCellinkPieChart</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>UserInfoServlet</servlet-name>
-        <servlet-class>com.agrologic.web.UserInfoServlet</servlet-class>
+        <servlet-class>com.agrologic.app.web.UserInfoServlet</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>CellinkInfoServlet</servlet-name>
-        <servlet-class>com.agrologic.web.CellinkInfoServlet</servlet-class>
+        <servlet-class>com.agrologic.app.web.CellinkInfoServlet</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>EditCellinkServlet</servlet-name>
-        <servlet-class>com.agrologic.web.EditCellinkServlet</servlet-class>
+        <servlet-class>com.agrologic.app.web.EditCellinkServlet</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>EditControllerServlet</servlet-name>
-        <servlet-class>com.agrologic.web.EditControllerServlet</servlet-class>
+        <servlet-class>com.agrologic.app.web.EditControllerServlet</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>ChangeUserPassServlet</servlet-name>
-        <servlet-class>com.agrologic.web.ChangeUserPassServlet</servlet-class>
+        <servlet-class>com.agrologic.app.web.ChangeUserPassServlet</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>ProgIdCheckServlet</servlet-name>
-        <servlet-class>com.agrologic.web.ProgIdCheckServlet</servlet-class>
+        <servlet-class>com.agrologic.app.web.ProgIdCheckServlet</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>AddScreenTranslationForm</servlet-name>
-        <servlet-class>com.agrologic.web.AddScreenTranslationForm</servlet-class>
+        <servlet-class>com.agrologic.app.web.AddScreenTranslationForm</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>AddTableTranslationForm</servlet-name>
-        <servlet-class>com.agrologic.web.AddTableTranslationForm</servlet-class>
+        <servlet-class>com.agrologic.app.web.AddTableTranslationForm</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>AddDataTranslationForm</servlet-name>
-        <servlet-class>com.agrologic.web.AddDataTranslationForm</servlet-class>
+        <servlet-class>com.agrologic.app.web.AddDataTranslationForm</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>AddFlockFormServlet</servlet-name>
-        <servlet-class>com.agrologic.web.AddFlockFormServlet</servlet-class>
+        <servlet-class>com.agrologic.app.web.AddFlockFormServlet</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>ListFlocksServlet</servlet-name>
-        <servlet-class>com.agrologic.web.ListFlocksServlet</servlet-class>
+        <servlet-class>com.agrologic.app.web.ListFlocksServlet</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>RemoveFlockServlet</servlet-name>
-        <servlet-class>com.agrologic.web.RemoveFlockServlet</servlet-class>
+        <servlet-class>com.agrologic.app.web.RemoveFlockServlet</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>SaveFlockFormServlet</servlet-name>
-        <servlet-class>com.agrologic.web.SaveFlockFormServlet</servlet-class>
+        <servlet-class>com.agrologic.app.web.SaveFlockFormServlet</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>AddScreenServlet</servlet-name>
-        <servlet-class>com.agrologic.web.AddScreenServlet</servlet-class>
+        <servlet-class>com.agrologic.app.web.AddScreenServlet</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>AddSelectedScreenFormServlet</servlet-name>
-        <servlet-class>com.agrologic.web.AddSelectedScreenFormServlet</servlet-class>
+        <servlet-class>com.agrologic.app.web.AddSelectedScreenFormServlet</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>ScreenPreviewServlet</servlet-name>
-        <servlet-class>com.agrologic.web.ScreenPreviewServlet</servlet-class>
+        <servlet-class>com.agrologic.app.web.ScreenPreviewServlet</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>HistorySettingServlet</servlet-name>
-        <servlet-class>com.agrologic.web.HistorySettingServlet</servlet-class>
+        <servlet-class>com.agrologic.app.web.HistorySettingServlet</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>DBPoolTest</servlet-name>
@@ -243,375 +243,375 @@
     </servlet>
     <servlet>
         <servlet-name>SaveHistSettingFormServlet</servlet-name>
-        <servlet-class>com.agrologic.web.SaveHistSettingFormServlet</servlet-class>
+        <servlet-class>com.agrologic.app.web.SaveHistSettingFormServlet</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>HistoryViewServlet</servlet-name>
-        <servlet-class>com.agrologic.web.HistoryViewServlet</servlet-class>
+        <servlet-class>com.agrologic.app.web.HistoryViewServlet</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>FlockGraphServlet</servlet-name>
-        <servlet-class>com.agrologic.web.FlockGraphServlet</servlet-class>
+        <servlet-class>com.agrologic.app.web.FlockGraphServlet</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>GraphFeedWaterServlet</servlet-name>
-        <servlet-class>com.agrologic.web.GraphFeedWaterServlet</servlet-class>
+        <servlet-class>com.agrologic.app.web.GraphFeedWaterServlet</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>GraphMinMaxHumidityServlet</servlet-name>
-        <servlet-class>com.agrologic.web.GraphMinMaxHumidityServlet</servlet-class>
+        <servlet-class>com.agrologic.app.web.GraphMinMaxHumidityServlet</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>GraphMortalityServlet</servlet-name>
-        <servlet-class>com.agrologic.web.GraphMortalityServlet</servlet-class>
+        <servlet-class>com.agrologic.app.web.GraphMortalityServlet</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>GraphAvgWeightServlet</servlet-name>
-        <servlet-class>com.agrologic.web.GraphAvgWeightServlet</servlet-class>
+        <servlet-class>com.agrologic.app.web.GraphAvgWeightServlet</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>GraphHeatOnTimeServlet</servlet-name>
-        <servlet-class>com.agrologic.web.GraphHeatOnTimeServlet</servlet-class>
+        <servlet-class>com.agrologic.app.web.GraphHeatOnTimeServlet</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>AvgWeight</servlet-name>
-        <servlet-class>com.agrologic.web.TableOfAvgWeight</servlet-class>
+        <servlet-class>com.agrologic.app.web.TableOfAvgWeight</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>FeedWater</servlet-name>
-        <servlet-class>com.agrologic.web.TableOfFeedWater</servlet-class>
+        <servlet-class>com.agrologic.app.web.TableOfFeedWater</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>MinMaxTempHum</servlet-name>
-        <servlet-class>com.agrologic.web.TableMinMaxTempHum</servlet-class>
+        <servlet-class>com.agrologic.app.web.TableMinMaxTempHum</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>Mortality</servlet-name>
-        <servlet-class>com.agrologic.web.TableOfMortality</servlet-class>
+        <servlet-class>com.agrologic.app.web.TableOfMortality</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>HeaterOnTime</servlet-name>
-        <servlet-class>com.agrologic.web.TableOfHeaterOnTime</servlet-class>
+        <servlet-class>com.agrologic.app.web.TableOfHeaterOnTime</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>DownloadExcelServlet</servlet-name>
-        <servlet-class>com.agrologic.web.DownloadExcelServlet</servlet-class>
+        <servlet-class>com.agrologic.app.web.DownloadExcelServlet</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>ExpToExcelAvgWeight</servlet-name>
-        <servlet-class>com.agrologic.web.ExpToExcelAvgWeight</servlet-class>
+        <servlet-class>com.agrologic.app.web.ExpToExcelAvgWeight</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>ExpToExcelFeedWater</servlet-name>
-        <servlet-class>com.agrologic.web.ExpToExcelFeedWater</servlet-class>
+        <servlet-class>com.agrologic.app.web.ExpToExcelFeedWater</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>ExpToExcelMinMaxHum</servlet-name>
-        <servlet-class>com.agrologic.web.ExpToExcelMinMaxHum</servlet-class>
+        <servlet-class>com.agrologic.app.web.ExpToExcelMinMaxHum</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>ExpToExcelMortality</servlet-name>
-        <servlet-class>com.agrologic.web.ExpToExcelMortality</servlet-class>
+        <servlet-class>com.agrologic.app.web.ExpToExcelMortality</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>ExpToExcelHeatOnTime</servlet-name>
-        <servlet-class>com.agrologic.web.ExpToExcelHeatOnTime</servlet-class>
+        <servlet-class>com.agrologic.app.web.ExpToExcelHeatOnTime</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>Graph24HourServlet</servlet-name>
-        <servlet-class>com.agrologic.web.Graph24HourServlet</servlet-class>
+        <servlet-class>com.agrologic.app.web.Graph24HourServlet</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>Graph24HourFWServlet</servlet-name>
-        <servlet-class>com.agrologic.web.Graph24HourFWServlet</servlet-class>
+        <servlet-class>com.agrologic.app.web.Graph24HourFWServlet</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>Graph24HourIOHServlet</servlet-name>
-        <servlet-class>com.agrologic.web.Graph24HourIOHServlet</servlet-class>
+        <servlet-class>com.agrologic.app.web.Graph24HourIOHServlet</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>HitCounter</servlet-name>
-        <servlet-class>com.agrologic.web.HitCounter</servlet-class>
+        <servlet-class>com.agrologic.app.web.HitCounter</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>SaveHouseForm</servlet-name>
-        <servlet-class>com.agrologic.web.SaveHouseForm</servlet-class>
+        <servlet-class>com.agrologic.app.web.SaveHouseForm</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>AddGasFormServlet</servlet-name>
-        <servlet-class>com.agrologic.web.AddGasFormServlet</servlet-class>
+        <servlet-class>com.agrologic.app.web.AddGasFormServlet</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>AddFuelFormServlet</servlet-name>
-        <servlet-class>com.agrologic.web.AddFuelFormServlet</servlet-class>
+        <servlet-class>com.agrologic.app.web.AddFuelFormServlet</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>RemoveGasServlet</servlet-name>
-        <servlet-class>com.agrologic.web.RemoveGasServlet</servlet-class>
+        <servlet-class>com.agrologic.app.web.RemoveGasServlet</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>RemoveFuelServlet</servlet-name>
-        <servlet-class>com.agrologic.web.RemoveFuelServlet</servlet-class>
+        <servlet-class>com.agrologic.app.web.RemoveFuelServlet</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>SaveEnergyForm</servlet-name>
-        <servlet-class>com.agrologic.web.SaveEnergyForm</servlet-class>
+        <servlet-class>com.agrologic.app.web.SaveEnergyForm</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>SaveBeginEndForm</servlet-name>
-        <servlet-class>com.agrologic.web.SaveBeginEndForm</servlet-class>
+        <servlet-class>com.agrologic.app.web.SaveBeginEndForm</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>SaveMeterForm</servlet-name>
-        <servlet-class>com.agrologic.web.SaveMeterForm</servlet-class>
+        <servlet-class>com.agrologic.app.web.SaveMeterForm</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>AddSpreadFormServlet</servlet-name>
-        <servlet-class>com.agrologic.web.AddSpreadFormServlet</servlet-class>
+        <servlet-class>com.agrologic.app.web.AddSpreadFormServlet</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>AddFeedTypeFormServlet</servlet-name>
-        <servlet-class>com.agrologic.web.AddFeedTypeFormServlet</servlet-class>
+        <servlet-class>com.agrologic.app.web.AddFeedTypeFormServlet</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>AddFeedFormServlet</servlet-name>
-        <servlet-class>com.agrologic.web.AddFeedFormServlet</servlet-class>
+        <servlet-class>com.agrologic.app.web.AddFeedFormServlet</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>AddMedicineFormServlet</servlet-name>
-        <servlet-class>com.agrologic.web.AddMedicineFormServlet</servlet-class>
+        <servlet-class>com.agrologic.app.web.AddMedicineFormServlet</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>AddWorkerFormServlet</servlet-name>
-        <servlet-class>com.agrologic.web.AddWorkerFormServlet</servlet-class>
+        <servlet-class>com.agrologic.app.web.AddWorkerFormServlet</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>RemoveWorkerServlet</servlet-name>
-        <servlet-class>com.agrologic.web.RemoveWorkerServlet</servlet-class>
+        <servlet-class>com.agrologic.app.web.RemoveWorkerServlet</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>AddLaborFormServlet</servlet-name>
-        <servlet-class>com.agrologic.web.AddLaborFormServlet</servlet-class>
+        <servlet-class>com.agrologic.app.web.AddLaborFormServlet</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>RemoveLaborServlet</servlet-name>
-        <servlet-class>com.agrologic.web.RemoveLaborServlet</servlet-class>
+        <servlet-class>com.agrologic.app.web.RemoveLaborServlet</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>RemoveMedicineServlet</servlet-name>
-        <servlet-class>com.agrologic.web.RemoveMedicineServlet</servlet-class>
+        <servlet-class>com.agrologic.app.web.RemoveMedicineServlet</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>AddTransactionFormServlet</servlet-name>
-        <servlet-class>com.agrologic.web.AddTransactionFormServlet</servlet-class>
+        <servlet-class>com.agrologic.app.web.AddTransactionFormServlet</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>RemoveTransactServlet</servlet-name>
-        <servlet-class>com.agrologic.web.RemoveTransactServlet</servlet-class>
+        <servlet-class>com.agrologic.app.web.RemoveTransactServlet</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>AddDistrebutFormServlet</servlet-name>
-        <servlet-class>com.agrologic.web.AddDistrebutFormServlet</servlet-class>
+        <servlet-class>com.agrologic.app.web.AddDistrebutFormServlet</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>DownloadServlet</servlet-name>
-        <servlet-class>com.agrologic.web.DownloadServlet</servlet-class>
+        <servlet-class>com.agrologic.app.web.DownloadServlet</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>TestGraph</servlet-name>
-        <servlet-class>com.agrologic.web.TestGraph</servlet-class>
+        <servlet-class>com.agrologic.app.web.TestGraph</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>RCProgramRelays</servlet-name>
-        <servlet-class>com.agrologic.web.RCProgramRelays</servlet-class>
+        <servlet-class>com.agrologic.app.web.RCProgramRelays</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>RCActionSetServlet</servlet-name>
-        <servlet-class>com.agrologic.web.RCActionSetServlet</servlet-class>
+        <servlet-class>com.agrologic.app.web.RCActionSetServlet</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>CloseFlockServlet</servlet-name>
-        <servlet-class>com.agrologic.web.CloseFlockServlet</servlet-class>
+        <servlet-class>com.agrologic.app.web.CloseFlockServlet</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>DatabaseServlet</servlet-name>
-        <servlet-class>com.agrologic.web.DatabaseServlet</servlet-class>
+        <servlet-class>com.agrologic.app.web.DatabaseServlet</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>RCMainScreenAjax</servlet-name>
-        <servlet-class>com.agrologic.web.RCMainScreenAjax</servlet-class>
+        <servlet-class>com.agrologic.app.web.RCMainScreenAjax</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>DisconnectCellinks</servlet-name>
-        <servlet-class>com.agrologic.web.DisconnectCellinks</servlet-class>
+        <servlet-class>com.agrologic.app.web.DisconnectCellinks</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>HeadlineStatistic</servlet-name>
-        <servlet-class>com.agrologic.web.HeadlineStatistic</servlet-class>
+        <servlet-class>com.agrologic.app.web.HeadlineStatistic</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>CellinkSetting</servlet-name>
-        <servlet-class>com.agrologic.web.CellinkSetting</servlet-class>
+        <servlet-class>com.agrologic.app.web.CellinkSetting</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>ActivateControllerServlet</servlet-name>
-        <servlet-class>com.agrologic.web.ActivateControllerServlet</servlet-class>
+        <servlet-class>com.agrologic.app.web.ActivateControllerServlet</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>StartPage</servlet-name>
-        <servlet-class>com.agrologic.web.StartPage</servlet-class>
+        <servlet-class>com.agrologic.app.web.StartPage</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>MyFarms</servlet-name>
-        <servlet-class>com.agrologic.web.MyFarms</servlet-class>
+        <servlet-class>com.agrologic.app.web.MyFarms</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>ListRelays</servlet-name>
-        <servlet-class>com.agrologic.web.ListRelays</servlet-class>
+        <servlet-class>com.agrologic.app.web.ListRelays</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>AddRelayTranslationForm</servlet-name>
-        <servlet-class>com.agrologic.web.AddRelayTranslationForm</servlet-class>
+        <servlet-class>com.agrologic.app.web.AddRelayTranslationForm</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>AddRelayFormServlet</servlet-name>
-        <servlet-class>com.agrologic.web.AddRelayFormServlet</servlet-class>
+        <servlet-class>com.agrologic.app.web.AddRelayFormServlet</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>RemoveRelayServlet</servlet-name>
-        <servlet-class>com.agrologic.web.RemoveRelayServlet</servlet-class>
+        <servlet-class>com.agrologic.app.web.RemoveRelayServlet</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>RCChangeValue</servlet-name>
-        <servlet-class>com.agrologic.web.RCChangeValue</servlet-class>
+        <servlet-class>com.agrologic.app.web.RCChangeValue</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>AssignAlarmsFormServlet</servlet-name>
-        <servlet-class>com.agrologic.web.AssignAlarmsFormServlet</servlet-class>
+        <servlet-class>com.agrologic.app.web.AssignAlarmsFormServlet</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>AddAlarmtranslationForm</servlet-name>
-        <servlet-class>com.agrologic.web.AddAlarmtranslationForm</servlet-class>
+        <servlet-class>com.agrologic.app.web.AddAlarmtranslationForm</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>ListAlarms</servlet-name>
-        <servlet-class>com.agrologic.web.ListAlarms</servlet-class>
+        <servlet-class>com.agrologic.app.web.ListAlarms</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>RemoveAlarmServlet</servlet-name>
-        <servlet-class>com.agrologic.web.RemoveAlarmServlet</servlet-class>
+        <servlet-class>com.agrologic.app.web.RemoveAlarmServlet</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>EditRelayFormServlet</servlet-name>
-        <servlet-class>com.agrologic.web.EditRelayFormServlet</servlet-class>
+        <servlet-class>com.agrologic.app.web.EditRelayFormServlet</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>EditAlarmFormServlet</servlet-name>
-        <servlet-class>com.agrologic.web.EditAlarmFormServlet</servlet-class>
+        <servlet-class>com.agrologic.app.web.EditAlarmFormServlet</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>AddSystemStateFormServlet</servlet-name>
-        <servlet-class>com.agrologic.web.AddSystemStateFormServlet</servlet-class>
+        <servlet-class>com.agrologic.app.web.AddSystemStateFormServlet</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>ListSystemStates</servlet-name>
-        <servlet-class>com.agrologic.web.ListSystemStates</servlet-class>
+        <servlet-class>com.agrologic.app.web.ListSystemStates</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>DisconnectCelllink</servlet-name>
-        <servlet-class>com.agrologic.web.DisconnectCelllink</servlet-class>
+        <servlet-class>com.agrologic.app.web.DisconnectCelllink</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>TotalCellinkStatePieChart</servlet-name>
-        <servlet-class>com.agrologic.web.TotalCellinkStatePieChart</servlet-class>
+        <servlet-class>com.agrologic.app.web.TotalCellinkStatePieChart</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>AddSystemStatetranslationFormServlet</servlet-name>
-        <servlet-class>com.agrologic.web.AddSystemStatetranslationFormServlet</servlet-class>
+        <servlet-class>com.agrologic.app.web.AddSystemStatetranslationFormServlet</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>RemoveSystemStateServlet</servlet-name>
-        <servlet-class>com.agrologic.web.RemoveSystemStateServlet</servlet-class>
+        <servlet-class>com.agrologic.app.web.RemoveSystemStateServlet</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>EditSystemStateFormServlet</servlet-name>
-        <servlet-class>com.agrologic.web.EditSystemStateFormServlet</servlet-class>
+        <servlet-class>com.agrologic.app.web.EditSystemStateFormServlet</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>ExpHistoryToExcel</servlet-name>
-        <servlet-class>com.agrologic.web.ExpHistoryToExcel</servlet-class>
+        <servlet-class>com.agrologic.app.web.ExpHistoryToExcel</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>TableFlockHistory</servlet-name>
-        <servlet-class>com.agrologic.web.TableFlockHistory</servlet-class>
+        <servlet-class>com.agrologic.app.web.TableFlockHistory</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>TableOfIOH24Hour</servlet-name>
-        <servlet-class>com.agrologic.web.TableOfIOH24Hour</servlet-class>
+        <servlet-class>com.agrologic.app.web.TableOfIOH24Hour</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>CellinkNameServlet</servlet-name>
-        <servlet-class>com.agrologic.web.CellinkNameServlet</servlet-class>
+        <servlet-class>com.agrologic.app.web.CellinkNameServlet</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>ExpHistory24ToExcel</servlet-name>
-        <servlet-class>com.agrologic.web.ExpHistory24ToExcel</servlet-class>
+        <servlet-class>com.agrologic.app.web.ExpHistory24ToExcel</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>TableFlockHistory24</servlet-name>
-        <servlet-class>com.agrologic.web.TableFlockHistory24</servlet-class>
+        <servlet-class>com.agrologic.app.web.TableFlockHistory24</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>EditProfileFormServlet</servlet-name>
-        <servlet-class>com.agrologic.web.EditProfileFormServlet</servlet-class>
+        <servlet-class>com.agrologic.app.web.EditProfileFormServlet</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>AddDataSetFormServlet</servlet-name>
-        <servlet-class>com.agrologic.web.AddDataSetFormServlet</servlet-class>
+        <servlet-class>com.agrologic.app.web.AddDataSetFormServlet</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>SaveProgramActionSetServlet</servlet-name>
-        <servlet-class>com.agrologic.web.SaveProgramActionSetServlet</servlet-class>
+        <servlet-class>com.agrologic.app.web.SaveProgramActionSetServlet</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>RCChangeActionsetValue</servlet-name>
-        <servlet-class>com.agrologic.web.RCChangeActionsetValue</servlet-class>
+        <servlet-class>com.agrologic.app.web.RCChangeActionsetValue</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>AddActionsetTranslationForm</servlet-name>
-        <servlet-class>com.agrologic.web.AddActionsetTranslationForm</servlet-class>
+        <servlet-class>com.agrologic.app.web.AddActionsetTranslationForm</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>RCControllerScreenAjax</servlet-name>
-        <servlet-class>com.agrologic.web.RCControllerScreenAjax</servlet-class>
+        <servlet-class>com.agrologic.app.web.RCControllerScreenAjax</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>RCMainScreenAjaxNew</servlet-name>
-        <servlet-class>com.agrologic.web.RCMainScreenAjaxNew</servlet-class>
+        <servlet-class>com.agrologic.app.web.RCMainScreenAjaxNew</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>TranslateData</servlet-name>
-        <servlet-class>com.agrologic.web.TranslateData</servlet-class>
+        <servlet-class>com.agrologic.app.web.TranslateData</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>TableFlockEggCountHistory</servlet-name>
-        <servlet-class>com.agrologic.web.TableFlockEggCountHistory</servlet-class>
+        <servlet-class>com.agrologic.app.web.TableFlockEggCountHistory</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>UncheckUnusedDataServlet</servlet-name>
-        <servlet-class>com.agrologic.web.UncheckUnusedDataServlet</servlet-class>
+        <servlet-class>com.agrologic.app.web.UncheckUnusedDataServlet</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>ClearControllerData</servlet-name>
-        <servlet-class>com.agrologic.web.ClearControllerData</servlet-class>
+        <servlet-class>com.agrologic.app.web.ClearControllerData</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>MyServlet</servlet-name>
-        <servlet-class>com.agrologic.web.MyServlet</servlet-class>
+        <servlet-class>com.agrologic.app.web.MyServlet</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>CreateDBServlet</servlet-name>
-        <servlet-class>com.agrologic.web.CreateDBServlet</servlet-class>
+        <servlet-class>com.agrologic.app.web.CreateDBServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>Log4JTestServlet</servlet-name>
@@ -759,95 +759,95 @@
     </servlet-mapping>
     <servlet>
         <servlet-name>ListProgramScreens</servlet-name>
-        <servlet-class>com.agrologic.web.ListProgramScreens</servlet-class>
+        <servlet-class>com.agrologic.app.web.ListProgramScreens</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>SaveScreensServlet</servlet-name>
-        <servlet-class>com.agrologic.web.SaveScreensServlet</servlet-class>
+        <servlet-class>com.agrologic.app.web.SaveScreensServlet</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>ListScreenTables</servlet-name>
-        <servlet-class>com.agrologic.web.ListScreenTables</servlet-class>
+        <servlet-class>com.agrologic.app.web.ListScreenTables</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>ViewResultServlet</servlet-name>
-        <servlet-class>com.agrologic.web.ViewResultServlet</servlet-class>
+        <servlet-class>com.agrologic.app.web.ViewResultServlet</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>ProgramAlarmsServlet</servlet-name>
-        <servlet-class>com.agrologic.web.ProgramAlarmsServlet</servlet-class>
+        <servlet-class>com.agrologic.app.web.ProgramAlarmsServlet</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>ProgramRelaysServlet</servlet-name>
-        <servlet-class>com.agrologic.web.ProgramRelaysServlet</servlet-class>
+        <servlet-class>com.agrologic.app.web.ProgramRelaysServlet</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>ProgramSystemStatesServlet</servlet-name>
-        <servlet-class>com.agrologic.web.ProgramSystemStatesServlet</servlet-class>
+        <servlet-class>com.agrologic.app.web.ProgramSystemStatesServlet</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>EditTableServlet</servlet-name>
-        <servlet-class>com.agrologic.web.EditTableFormServlet</servlet-class>
+        <servlet-class>com.agrologic.app.web.EditTableFormServlet</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>AddTableFormServlet</servlet-name>
-        <servlet-class>com.agrologic.web.AddTableFormServlet</servlet-class>
+        <servlet-class>com.agrologic.app.web.AddTableFormServlet</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>RemoveDataServlet</servlet-name>
-        <servlet-class>com.agrologic.web.RemoveDataServlet</servlet-class>
+        <servlet-class>com.agrologic.app.web.RemoveDataServlet</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>AddTableDataFormServlet</servlet-name>
-        <servlet-class>com.agrologic.web.AddTableDataFormServlet</servlet-class>
+        <servlet-class>com.agrologic.app.web.AddTableDataFormServlet</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>SaveTablesServlet</servlet-name>
-        <servlet-class>com.agrologic.web.SaveTablesServlet</servlet-class>
+        <servlet-class>com.agrologic.app.web.SaveTablesServlet</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>RemoveTableServlet</servlet-name>
-        <servlet-class>com.agrologic.web.RemoveTableServlet</servlet-class>
+        <servlet-class>com.agrologic.app.web.RemoveTableServlet</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>SaveDataOnTable</servlet-name>
-        <servlet-class>com.agrologic.web.SaveDataOnTable</servlet-class>
+        <servlet-class>com.agrologic.app.web.SaveDataOnTable</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>RemoveScreenServlet</servlet-name>
-        <servlet-class>com.agrologic.web.RemoveScreenServlet</servlet-class>
+        <servlet-class>com.agrologic.app.web.RemoveScreenServlet</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>AssignRelaysFormServlet</servlet-name>
-        <servlet-class>com.agrologic.web.AssignRelaysFormServlet</servlet-class>
+        <servlet-class>com.agrologic.app.web.AssignRelaysFormServlet</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>EditDataOnTableServlet</servlet-name>
-        <servlet-class>com.agrologic.web.EditDataOnTableServlet</servlet-class>
+        <servlet-class>com.agrologic.app.web.EditDataOnTableServlet</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>AddAlarmFormServlet</servlet-name>
-        <servlet-class>com.agrologic.web.AddAlarmFormServlet</servlet-class>
+        <servlet-class>com.agrologic.app.web.AddAlarmFormServlet</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>AssignSystemStateFormServlet</servlet-name>
-        <servlet-class>com.agrologic.web.AssignSystemStateFormServlet</servlet-class>
+        <servlet-class>com.agrologic.app.web.AssignSystemStateFormServlet</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>ListTableData</servlet-name>
-        <servlet-class>com.agrologic.web.ListTableData</servlet-class>
+        <servlet-class>com.agrologic.app.web.ListTableData</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>AddScreenFormServlet</servlet-name>
-        <servlet-class>com.agrologic.web.AddScreenFormServlet</servlet-class>
+        <servlet-class>com.agrologic.app.web.AddScreenFormServlet</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>EditScreenFormServlet</servlet-name>
-        <servlet-class>com.agrologic.web.EditScreenFormServlet</servlet-class>
+        <servlet-class>com.agrologic.app.web.EditScreenFormServlet</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>FlockManagment</servlet-name>
-        <servlet-class>com.agrologic.web.FlockManagment</servlet-class>
+        <servlet-class>com.agrologic.app.web.FlockManagment</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>ListProgramScreens</servlet-name>

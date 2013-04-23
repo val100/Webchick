@@ -8,13 +8,13 @@
 <%@ include file="disableCaching.jsp" %>
 <%@ include file="language.jsp" %>
 
-<jsp:directive.page import="com.agrologic.dto.FeedDto"/>
-<jsp:directive.page import="com.agrologic.dao.FeedDao"/>
-<jsp:directive.page import="com.agrologic.dao.impl.FeedDaoImpl"/>
+<jsp:directive.page import="com.agrologic.app.model.FeedDto"/>
+<jsp:directive.page import="com.agrologic.app.dao.FeedDao"/>
+<jsp:directive.page import="com.agrologic.app.dao.impl.FeedDaoImpl"/>
 
-<jsp:directive.page import="com.agrologic.dao.impl.FeedTypeDaoImpl"/>
-<jsp:directive.page import="com.agrologic.dto.FeedTypeDto"/>
-<jsp:directive.page import="com.agrologic.dao.FeedTypeDao"/>
+<jsp:directive.page import="com.agrologic.app.dao.impl.FeedTypeDaoImpl"/>
+<jsp:directive.page import="com.agrologic.app.model.FeedTypeDto"/>
+<jsp:directive.page import="com.agrologic.app.dao.FeedTypeDao"/>
 
 <%
     Long cellinkId = Long.parseLong(request.getParameter("cellinkId"));

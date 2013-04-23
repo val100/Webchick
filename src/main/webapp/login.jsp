@@ -5,7 +5,7 @@
 <%@ page import="org.apache.log4j.Logger"%>
 <%@ page import="java.util.*" %>
 <%@ page import="javax.servlet.http.Cookie"%>
-<%@ page import="com.agrologic.utils.Base64"%>
+<%@ page import="com.agrologic.app.utils.Base64"%>
 
 <%
     String user = "";

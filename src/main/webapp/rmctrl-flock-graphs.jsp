@@ -9,9 +9,9 @@
 <%@ include file="language.jsp" %>
 <%@ page import="java.util.List"%>
 
-<jsp:directive.page import="com.agrologic.dto.ControllerDto"/>
-<jsp:directive.page import="com.agrologic.dto.FlockDto"/>
-<jsp:directive.page import="com.agrologic.dto.DataDto"/>
+<jsp:directive.page import="com.agrologic.app.model.ControllerDto"/>
+<jsp:directive.page import="com.agrologic.app.model.FlockDto"/>
+<jsp:directive.page import="com.agrologic.app.model.DataDto"/>
 
 <%
     Long userId = Long.parseLong(request.getParameter("userId"));

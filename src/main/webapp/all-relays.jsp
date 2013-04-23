@@ -4,7 +4,7 @@
     Author     : Administrator
 --%>
 
-<%@page import="com.agrologic.dto.LanguageDto"%>
+<%@page import="com.agrologic.app.model.LanguageDto"%>
 <%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <%@ page errorPage="anerrorpage.jsp"%>
 <%@ include file="disableCaching.jsp" %>
@@ -13,11 +13,11 @@
 <%@ page import="java.util.List"%>
 <%@ page import="java.util.ArrayList"%>
 
-<jsp:directive.page import="com.agrologic.dto.UserDto"/>
-<jsp:directive.page import="com.agrologic.dto.DataDto"/>
-<jsp:directive.page import="com.agrologic.dto.RelayDto"/>
-<jsp:directive.page import="com.agrologic.dto.ProgramDto"/>
-<jsp:directive.page import="com.agrologic.dto.ProgramRelayDto"/>
+<jsp:directive.page import="com.agrologic.app.model.UserDto"/>
+<jsp:directive.page import="com.agrologic.app.model.DataDto"/>
+<jsp:directive.page import="com.agrologic.app.model.RelayDto"/>
+<jsp:directive.page import="com.agrologic.app.model.ProgramDto"/>
+<jsp:directive.page import="com.agrologic.app.model.ProgramRelayDto"/>
 
 <%  UserDto user = (UserDto) request.getSession().getAttribute("user");
     if (user == null) {

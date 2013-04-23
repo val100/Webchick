@@ -6,14 +6,14 @@
 <%@ page import="java.util.List"%>
 <%@ page import="java.util.ArrayList"%>
 
-<jsp:directive.page import="com.agrologic.dto.UserDto"/>
-<jsp:directive.page import="com.agrologic.web.UserRole"/>
-<jsp:directive.page import="com.agrologic.dto.ProgramDto"/>
-<jsp:directive.page import="com.agrologic.dto.ScreenDto"/>
-<jsp:directive.page import="com.agrologic.dto.TableDto"/>
-<jsp:directive.page import="com.agrologic.dto.DataDto"/>
-<jsp:directive.page import="com.agrologic.dto.LanguageDto"/>
-<jsp:directive.page import="com.agrologic.dto.ProgramRelayDto"/>
+<jsp:directive.page import="com.agrologic.app.model.UserDto"/>
+<jsp:directive.page import="com.agrologic.app.web.UserRole"/>
+<jsp:directive.page import="com.agrologic.app.model.ProgramDto"/>
+<jsp:directive.page import="com.agrologic.app.model.ScreenDto"/>
+<jsp:directive.page import="com.agrologic.app.model.TableDto"/>
+<jsp:directive.page import="com.agrologic.app.model.DataDto"/>
+<jsp:directive.page import="com.agrologic.app.model.LanguageDto"/>
+<jsp:directive.page import="com.agrologic.app.model.ProgramRelayDto"/>
 
 <%  UserDto user = (UserDto)request.getSession().getAttribute("user");
     if(user == null) {

@@ -5,9 +5,9 @@
 
 <%@ page import="java.util.List"%>
 
-<jsp:directive.page import="com.agrologic.dto.UserDto"/>
-<jsp:directive.page import="com.agrologic.dto.CellinkDto"/>
-<jsp:directive.page import="com.agrologic.web.CellinkState"/>
+<jsp:directive.page import="com.agrologic.app.model.UserDto"/>
+<jsp:directive.page import="com.agrologic.app.model.CellinkDto"/>
+<jsp:directive.page import="com.agrologic.app.web.CellinkState"/>
 
 <%  UserDto user = (UserDto) request.getSession().getAttribute("user");
 //UserDto user = (UserDto) getServletContext().getAttribute("user");

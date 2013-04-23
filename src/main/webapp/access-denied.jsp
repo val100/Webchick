@@ -5,7 +5,7 @@
 
 <%@ page import="java.util.Vector"%>
 
-<jsp:directive.page import="com.agrologic.dto.UserDto"/>
+<jsp:directive.page import="com.agrologic.app.app.dto.UserDto"/>
 
 <%  UserDto user = (UserDto)request.getSession().getAttribute("user");
     if(user == null) {

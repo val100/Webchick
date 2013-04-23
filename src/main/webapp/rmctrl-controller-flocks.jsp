@@ -4,8 +4,8 @@
 <%@ page import="java.util.List"%>
 <%@ page import="java.util.Date"%>
 
-<jsp:directive.page import="com.agrologic.dto.ControllerDto"/>
-<jsp:directive.page import="com.agrologic.dto.FlockDto"/>
+<jsp:directive.page import="com.agrologic.app.model.ControllerDto"/>
+<jsp:directive.page import="com.agrologic.app.model.FlockDto"/>
 
 <%
     Long userId = Long.parseLong(request.getParameter("userId"));

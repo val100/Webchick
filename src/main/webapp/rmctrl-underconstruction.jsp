@@ -3,7 +3,7 @@
 <%@ page errorPage="anerrorpage.jsp"%>
 <%@ page import="java.util.List"%>
 
-<jsp:directive.page import="com.agrologic.dto.UserDto"/>
+<jsp:directive.page import="com.agrologic.app.model.UserDto"/>
 
 <%
     UserDto user = (UserDto)request.getSession().getAttribute("user");

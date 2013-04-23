@@ -5,9 +5,9 @@
 
 <%@ page import="java.util.List"%>
 
-<jsp:directive.page import="com.agrologic.dto.UserDto"/>
-<jsp:directive.page import="com.agrologic.dto.ProgramDto"/>
-<jsp:directive.page import="com.agrologic.dto.ScreenDto"/>
+<jsp:directive.page import="com.agrologic.app.model.UserDto"/>
+<jsp:directive.page import="com.agrologic.app.model.ProgramDto"/>
+<jsp:directive.page import="com.agrologic.app.model.ScreenDto"/>
 
 <%  UserDto user = (UserDto)request.getSession().getAttribute("user");
     if(user == null) {

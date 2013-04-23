@@ -1,5 +1,5 @@
-<%@page import="com.agrologic.dao.impl.DomainDaoImpl"%>
-<%@page import="com.agrologic.dao.DomainDao"%>
+<%@page import="com.agrologic.app.dao.impl.DomainDaoImpl"%>
+<%@page import="com.agrologic.app.dao.DomainDao"%>
 <%@page import="java.util.Iterator"%>
 <%@page import="java.util.Map"%>
 

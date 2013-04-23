@@ -18,13 +18,13 @@
 <%@ page import="java.util.HashSet"%>
 <%@ page import="java.util.Iterator"%>
 
-<jsp:directive.page import="com.agrologic.dto.UserDto"/>
-<jsp:directive.page import="com.agrologic.dto.ControllerDto"/>
-<jsp:directive.page import="com.agrologic.dto.FlockDto"/>
-<jsp:directive.page import="com.agrologic.dto.DataDto"/>
-<jsp:directive.page import="com.agrologic.dto.HistorySettingDto"/>
-<jsp:directive.page import="com.agrologic.web.UserRole"/>
-<jsp:directive.page import="com.agrologic.web.UserRole"/>
+<jsp:directive.page import="com.agrologic.app.model.UserDto"/>
+<jsp:directive.page import="com.agrologic.app.model.ControllerDto"/>
+<jsp:directive.page import="com.agrologic.app.model.FlockDto"/>
+<jsp:directive.page import="com.agrologic.app.model.DataDto"/>
+<jsp:directive.page import="com.agrologic.app.model.HistorySettingDto"/>
+<jsp:directive.page import="com.agrologic.app.web.UserRole"/>
+<jsp:directive.page import="com.agrologic.app.web.UserRole"/>
 
 
 <%  UserDto user = (UserDto)request.getSession().getAttribute("user");

@@ -5,11 +5,11 @@
 <%@ page import="java.util.ArrayList"%>
 <%@ page import="java.util.Map"%>
 
-<jsp:directive.page import="com.agrologic.dto.UserDto"/>
-<jsp:directive.page import="com.agrologic.dto.CellinkDto"/>
-<jsp:directive.page import="com.agrologic.dto.ControllerDto"/>
-<jsp:directive.page import="com.agrologic.web.UserRole"/>
-<jsp:directive.page import="com.agrologic.web.CellinkState"/>
+<jsp:directive.page import="com.agrologic.app.model.UserDto"/>
+<jsp:directive.page import="com.agrologic.app.model.CellinkDto"/>
+<jsp:directive.page import="com.agrologic.app.model.ControllerDto"/>
+<jsp:directive.page import="com.agrologic.app.web.UserRole"/>
+<jsp:directive.page import="com.agrologic.app.web.CellinkState"/>
 
 <%  UserDto user = (UserDto)request.getSession().getAttribute("user");
     if(user == null) {

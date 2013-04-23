@@ -1,7 +1,7 @@
-<%@page import="com.agrologic.dao.impl.DomainDaoImpl"%>
-<%@page import="com.agrologic.dao.DomainDao"%>
-<jsp:directive.page import="com.agrologic.dto.UserDto"/>
-<jsp:directive.page import="com.agrologic.web.UserRole"/>
+<%@page import="com.agrologic.app.dao.impl.DomainDaoImpl"%>
+<%@page import="com.agrologic.app.dao.DomainDao"%>
+<jsp:directive.page import="com.agrologic.app.model.UserDto"/>
+<jsp:directive.page import="com.agrologic.app.web.UserRole"/>
 <%
     UserDto logedUser = (UserDto) request.getSession().getAttribute("user");
     //UserDto logedUser = (UserDto) getServletContext().getAttribute("user");
